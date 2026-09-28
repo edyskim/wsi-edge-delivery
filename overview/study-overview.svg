@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="ov-title ov-desc">
+  <title id="ov-title">Study overview</title>
+  <desc id="ov-desc">A schematic whole-slide-image tile grid with one viewport is shown at the left. One recorded navigation session (38 steps, 6,178 tiles) is replayed by k6 as 50 to 300 students with coherent or random paths. Original JPEG servers (Cases 1 and 2) send original JPEG tiles to the viewer. Content-aware edge configurations (Cases 3 to 5) collapse background to one shared tile, encode tissue as compact objects, decode them at an edge pool, and send reconstructed JPEG tiles to the viewer. Delivery measurements include viewport time (mean and p95), slide-open p95, bytes per tile, tiles per second, and failed requests.</desc>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="500" fill="#ffffff"/>
+  <text x="40" y="48" fill="#1e293b" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700">Study overview</text>
+  <rect x="40" y="84" width="250" height="376" rx="16" fill="#f4f6fa" stroke="none" stroke-width="1.5"/>
+  <rect x="322" y="84" width="610" height="170" rx="16" fill="#eef4ff" stroke="none" stroke-width="1.5"/>
+  <rect x="322" y="290" width="610" height="170" rx="16" fill="#ecfdf5" stroke="none" stroke-width="1.5"/>
+  <rect x="964" y="84" width="196" height="376" rx="16" fill="#f4f6fa" stroke="none" stroke-width="1.5"/>
+  <clipPath id="ovclip"><rect x="90.0" y="100.0" width="150.0" height="144.5" rx="3"/></clipPath>
+  <rect x="90" y="100" width="150" height="144.5" fill="#fffafb" clip-path="url(#ovclip)"/>
+  <path d="M 105 108 C 124 103, 137 111, 143 124 C 148 135, 136 140, 130 151 C 120 163, 107 164, 98 153 C 92 146, 95 130, 105 108 Z M 166 109 C 189 105, 216 112, 232 131 C 238 140, 230 149, 218 148 C 204 147, 191 139, 184 131 C 178 126, 168 127, 166 109 Z M 103 184 C 117 169, 138 169, 149 184 C 158 197, 149 213, 132 223 C 118 230, 99 222, 93 208 C 90 199, 94 192, 103 184 Z M 169 178 C 185 165, 205 168, 217 181 C 232 193, 234 211, 225 225 C 216 238, 197 239, 186 228 C 177 219, 162 214, 160 202 C 157 192, 162 183, 169 178 Z" fill="#d3a7b9" opacity="0.85" clip-path="url(#ovclip)"/>
+  <path d="M 107 118 C 123 114, 132 124, 129 137 M 174 117 C 196 113, 210 123, 219 135 M 104 195 C 120 183, 134 190, 139 205 M 176 192 C 190 182, 211 190, 216 208" fill="none" stroke="#9b637c" stroke-width="3" opacity="0.55" clip-path="url(#ovclip)"/>
+  <path d="M 90.0,100.0 V 244.5 M 90.0,100.0 H 240.0 M 105.0,100.0 V 244.5 M 90.0,115.0 H 240.0 M 120.0,100.0 V 244.5 M 90.0,130.0 H 240.0 M 135.0,100.0 V 244.5 M 90.0,145.0 H 240.0 M 150.0,100.0 V 244.5 M 90.0,160.0 H 240.0 M 165.0,100.0 V 244.5 M 90.0,175.0 H 240.0 M 180.0,100.0 V 244.5 M 90.0,190.0 H 240.0 M 195.0,100.0 V 244.5 M 90.0,205.0 H 240.0 M 210.0,100.0 V 244.5 M 90.0,220.0 H 240.0 M 225.0,100.0 V 244.5 M 90.0,235.0 H 240.0 M 240.0,100.0 V 244.5 M 90.0,250.0 H 240.0" stroke="#000000" stroke-opacity="0.22" stroke-width="0.6" fill="none" clip-path="url(#ovclip)"/>
+  <rect x="195.0" y="130.0" width="15.0" height="15.0" fill="#1e293b" fill-opacity="0.32" stroke="#1e293b" stroke-opacity="0.7" stroke-width="0.6" clip-path="url(#ovclip)"/>
+  <rect x="195.0" y="145.0" width="15.0" height="15.0" fill="#1e293b" fill-opacity="0.32" stroke="#1e293b" stroke-opacity="0.7" stroke-width="0.6" clip-path="url(#ovclip)"/>
+  <rect x="195.0" y="160.0" width="15.0" height="15.0" fill="#1e293b" fill-opacity="0.32" stroke="#1e293b" stroke-opacity="0.7" stroke-width="0.6" clip-path="url(#ovclip)"/>
+  <rect x="210.0" y="130.0" width="15.0" height="15.0" fill="#1e293b" fill-opacity="0.32" stroke="#1e293b" stroke-opacity="0.7" stroke-width="0.6" clip-path="url(#ovclip)"/>
+  <rect x="210.0" y="145.0" width="15.0" height="15.0" fill="#1e293b" fill-opacity="0.32" stroke="#1e293b" stroke-opacity="0.7" stroke-width="0.6" clip-path="url(#ovclip)"/>
+  <rect x="210.0" y="160.0" width="15.0" height="15.0" fill="#1e293b" fill-opacity="0.32" stroke="#1e293b" stroke-opacity="0.7" stroke-width="0.6" clip-path="url(#ovclip)"/>
+  <rect x="225.0" y="130.0" width="15.0" height="15.0" fill="#1e293b" fill-opacity="0.32" stroke="#1e293b" stroke-opacity="0.7" stroke-width="0.6" clip-path="url(#ovclip)"/>
+  <rect x="225.0" y="145.0" width="15.0" height="15.0" fill="#1e293b" fill-opacity="0.32" stroke="#1e293b" stroke-opacity="0.7" stroke-width="0.6" clip-path="url(#ovclip)"/>
+  <rect x="225.0" y="160.0" width="15.0" height="15.0" fill="#1e293b" fill-opacity="0.32" stroke="#1e293b" stroke-opacity="0.7" stroke-width="0.6" clip-path="url(#ovclip)"/>
+  <rect x="197.7" y="132.7" width="39.6" height="39.6" fill="none" stroke="#1e293b" stroke-width="2"/>
+  <rect x="90.0" y="100.0" width="150.0" height="144.5" rx="3" fill="none" stroke="#475569" stroke-width="1.2"/>
+  <text x="165" y="270.47852760736197" fill="#1e293b" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Recorded navigation session</text>
+  <text x="165" y="290.47852760736197" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">38 steps, 6,178 tiles</text>
+  <rect x="101" y="316.47852760736197" width="128" height="34" rx="17" fill="#ffffff" stroke="#1e293b" stroke-width="2"/>
+  <text x="165" y="338.47852760736197" fill="#1e293b" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Replayed by k6</text>
+  <text x="165" y="380.47852760736197" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">50 to 300 students</text>
+  <text x="165" y="402.47852760736197" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">Coherent or random paths</text>
+  <path d="M 229,333.47852760736197 H 306 V 184 M 306,333.47852760736197 V 384" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 306,184 L 336,184" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah)"/>
+  <path d="M 306,384 L 336,384" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah)"/>
+  <text x="342" y="110" fill="#2563eb" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Original JPEG servers</text>
+  <text x="534" y="110" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="13">Cases 1 and 2</text>
+  <rect x="367.0" y="155.0" width="46" height="58" rx="7" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <path d="M 376.0,169.0 h 20" fill="none" stroke="#2563eb" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="404.0" cy="169.0" r="2.2" fill="#2563eb"/>
+  <path d="M 376.0,182.0 h 20" fill="none" stroke="#2563eb" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="404.0" cy="182.0" r="2.2" fill="#2563eb"/>
+  <path d="M 376.0,195.0 h 20" fill="none" stroke="#2563eb" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="404.0" cy="195.0" r="2.2" fill="#2563eb"/>
+  <text x="390" y="234" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Single server</text>
+  <path d="M 422,184 L 760,184" fill="none" stroke="#2563eb" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah)"/>
+  <text x="591.0" y="174" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Original JPEG tiles</text>
+  <rect x="767" y="158" width="66" height="44" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <rect x="778" y="167" width="44" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="1.5"/>
+  <path d="M 790,202 v 8 M 810,202 v 8 M 780,211 h 40" fill="none" stroke="#2563eb" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="800" y="236" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Viewer</text>
+  <text x="342" y="316" fill="#059669" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700">Content-aware edge</text>
+  <text x="516" y="316" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="13">Cases 3 to 5</text>
+  <text x="342" y="335" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="12">One shared background tile, compact tissue objects</text>
+  <path d="M 350.0,404.0 h 66.0 a 14.0,14.0 0 0 0 2.0,-28.0 a 20.0,20.0 0 0 0 -38.0,-8.0 a 17.0,17.0 0 0 0 -30.0,10.0 a 13.0,13.0 0 0 0 0,26.0 z" fill="#ffffff" stroke="#059669" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="384" y="434" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Cloud encodes once</text>
+  <path d="M 440,384 L 536,384" fill="none" stroke="#059669" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah)"/>
+  <text x="488.0" y="374" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Compact objects</text>
+  <rect x="540.0" y="357.0" width="40" height="54" rx="7" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+  <path d="M 549.0,371.0 h 14" fill="none" stroke="#059669" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="571.0" cy="371.0" r="2.2" fill="#059669"/>
+  <path d="M 549.0,384.0 h 14" fill="none" stroke="#059669" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="571.0" cy="384.0" r="2.2" fill="#059669"/>
+  <path d="M 549.0,397.0 h 14" fill="none" stroke="#059669" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="571.0" cy="397.0" r="2.2" fill="#059669"/>
+  <rect x="584.0" y="357.0" width="40" height="54" rx="7" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+  <path d="M 593.0,371.0 h 14" fill="none" stroke="#059669" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="615.0" cy="371.0" r="2.2" fill="#059669"/>
+  <path d="M 593.0,384.0 h 14" fill="none" stroke="#059669" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="615.0" cy="384.0" r="2.2" fill="#059669"/>
+  <path d="M 593.0,397.0 h 14" fill="none" stroke="#059669" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="615.0" cy="397.0" r="2.2" fill="#059669"/>
+  <path d="M 580,378 h 4 M 580,390 h 4" fill="none" stroke="#059669" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="582" y="434" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Edge pool</text>
+  <path d="M 630,384 L 760,384" fill="none" stroke="#059669" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah)"/>
+  <text x="695.0" y="374" fill="#64748b" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Reconstructed JPEG</text>
+  <rect x="767" y="358" width="66" height="44" rx="6" fill="#ffffff" stroke="#059669" stroke-width="2"/>
+  <rect x="778" y="367" width="44" height="26" rx="2" fill="#e2e8f0" stroke="none" stroke-width="1.5"/>
+  <path d="M 790,402 v 8 M 810,402 v 8 M 780,411 h 40" fill="none" stroke="#059669" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="800" y="436" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Viewer</text>
+  <path d="M 840,184 L 954,184" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah)"/>
+  <path d="M 840,384 L 954,384" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah)"/>
+  <rect x="1018" y="168" width="12" height="18" rx="2" fill="#cbd5e1" stroke="none" stroke-width="1.5"/>
+  <rect x="1038" y="152" width="12" height="34" rx="2" fill="#cbd5e1" stroke="none" stroke-width="1.5"/>
+  <rect x="1058" y="162" width="12" height="24" rx="2" fill="#cbd5e1" stroke="none" stroke-width="1.5"/>
+  <rect x="1078" y="140" width="12" height="46" rx="2" fill="#1e293b" stroke="none" stroke-width="1.5"/>
+  <rect x="1098" y="156" width="12" height="30" rx="2" fill="#cbd5e1" stroke="none" stroke-width="1.5"/>
+  <path d="M 1012,186 h 100" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="1062" y="236" fill="#1e293b" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Delivery measurements</text>
+  <text x="1062" y="270" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">Viewport time (mean, p95)</text>
+  <text x="1062" y="296" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">Slide-open p95</text>
+  <text x="1062" y="322" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">Bytes per tile</text>
+  <text x="1062" y="348" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">Tiles per second</text>
+  <text x="1062" y="374" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">Failed requests</text>
+</svg>
