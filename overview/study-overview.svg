@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="ov-title ov-desc">
   <title id="ov-title">Study overview</title>
-  <desc id="ov-desc">A schematic whole-slide-image tile grid with one viewport is shown at the left. One recorded navigation session (38 steps, 6,178 tiles) is replayed by k6 as 50 to 300 students with coherent or random paths. Original JPEG servers (Cases 1 and 2) send original JPEG tiles to the viewer. Content-aware edge configurations (Cases 3 to 5) collapse background to one shared tile, encode tissue as compact objects, decode them at an edge pool, and send reconstructed JPEG tiles to the viewer. Delivery measurements include viewport time (mean and p95), slide-open p95, bytes per tile, tiles per second, and failed requests.</desc>
+  <desc id="ov-desc">A schematic whole-slide-image tile grid with one viewport is shown at the left. One recorded navigation session (38 steps, 6,178 tiles) is replayed by k6 as 50 to 300 students with coherent or random paths. Original JPEG servers (Cases 1 and 2) send original JPEG tiles to the viewer. Content-aware edge configurations (Cases 3 to 5) collapse background to one shared tile, encode tissue as compact objects, decode them at an edge pool, and send reconstructed JPEG tiles to the viewer. Delivery measurements include request-batch completion time (mean and p95), slide-open p95, bytes per successful tile response, successful tile throughput, and failed tile requests.</desc>
   <defs>
     <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/>
@@ -91,9 +91,9 @@
   <rect x="1098" y="156" width="12" height="30" rx="2" fill="#cbd5e1" stroke="none" stroke-width="1.5"/>
   <path d="M 1012,186 h 100" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
   <text x="1062" y="236" fill="#1e293b" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Delivery measurements</text>
-  <text x="1062" y="270" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">Viewport time (mean, p95)</text>
+  <text x="1062" y="270" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">Request-batch time</text>
   <text x="1062" y="296" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">Slide-open p95</text>
-  <text x="1062" y="322" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">Bytes per tile</text>
-  <text x="1062" y="348" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">Tiles per second</text>
-  <text x="1062" y="374" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">Failed requests</text>
+  <text x="1062" y="322" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Bytes per successful tile</text>
+  <text x="1062" y="348" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">Successful tiles/s</text>
+  <text x="1062" y="374" fill="#334155" font-family="Helvetica, Arial, sans-serif" font-size="13" text-anchor="middle">Failed tile requests</text>
 </svg>

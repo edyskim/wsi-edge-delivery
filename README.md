@@ -22,7 +22,7 @@ Each case contains:
 - 50, 100, 150, 200, 250, and 300 concurrent students;
 - three repetitions per pattern and student count.
 
-This gives 36 runs per case and 180 runs overall. The working set was warm before every run. Students started new trace passes for six minutes, and a pass in progress could finish within a grace period. Each student issued at most 64 concurrent tile requests. The request timeout was 600 seconds in Cases 1 to 4 and 60 seconds in Case 5. Student starts were spread over a window of 10 to 60 seconds. Edge nodes used 16,384 nginx connections per worker. During preparation, they could resolve an object through the local, peer, and cloud hierarchy.
+This gives 36 runs per case and 180 runs overall. The working set was warm before every run. Students started new trace passes for six minutes, and a pass in progress could finish within a 600-second grace period in Cases 1 to 4 or a 30-second grace period in Case 5. Each student issued at most 64 concurrent tile requests. The request timeout was 600 seconds in Cases 1 to 4 and 60 seconds in Case 5. Student starts were spread over a window of 10 to 60 seconds. All servers ran Ubuntu Server 24.04 LTS, and the replay client ran Ubuntu 24.04 LTS. Edge nodes used 16,384 nginx connections per worker. During preparation, they could resolve an object through the local, peer, and cloud hierarchy.
 
 ## Files
 
@@ -49,7 +49,7 @@ Tile positions are represented by pyramid-level offset and normalized coordinate
 
 ## Measurement definitions
 
-The run table includes mean request-batch time, request-batch p50 and p95, slide-open p95, mean bytes per successful tile response, tile TTFB p95, successful tile throughput, successful-response body rate, and recorded, successful, failed, and unclassified tile outcomes. It also records login failures and service-target attainment. The retained CSV field names follow the original k6 metric names. In `cell_summary.csv`, a p95 row is the mean and sample SD of three **run-level p95 values**, not a p95 pooled across runs.
+The run table includes mean request-batch time, request-batch p50 and p95, slide-open p95, mean bytes per successful tile response, tile TTFB p95, successful tile throughput, successful-response body rate, and recorded, successful, failed, and unclassified tile outcomes. It also records login failures and service-target attainment. The retained CSV fields `viewport_mean_s`, `viewport_p50_s`, and `viewport_p95_s` preserve the artifact's original names derived from the custom k6 metric `viewport_fill_ms`. They correspond to the manuscript's mean, p50, and p95 request-batch completion time and measure the time until a replayed k6 batch returned rather than browser rendering. In `cell_summary.csv`, a p95 row is the mean and sample SD of three **run-level p95 values**, not a p95 pooled across runs.
 
 ## Validate the artifact
 
